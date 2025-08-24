@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 270 100% 98%;
+
+    --card: 270 50% 3%;
+    --card-foreground: 270 100% 98%;
+
+    --popover: 270 50% 3%;
+    --popover-foreground: 270 100% 98%;
+
+    --primary: 325 90% 70%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 100% 70%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 270 50% 10%;
+    --muted-foreground: 270 30% 70%;
+
+    --accent: 270 50% 15%;
+    --accent-foreground: 270 100% 98%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 270 50% 20%;
+    --input: 270 50% 20%;
+    --ring: 325 90% 70%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .stars {
+    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png") repeat;
+    z-index: -3;
+  }
+
+  .twinkling {
+    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+    z-index: -2;
+    animation: move-twink-back 200s linear infinite;
+  }
+
+  .floating-hearts {
+    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full overflow-hidden;
+    z-index: -2;
+  }
+
+  .floating-hearts::before {
+    content: "❤️ 🎂 🎉 🎁 ✨";
+    @apply absolute text-6xl;
+    animation: floating 25s linear infinite;
+    white-space: nowrap;
+  }
+
+  .floating-hearts::after {
+    content: "🎈 💜 🎊 💖 🥂";
+    @apply absolute text-6xl;
+    animation: floating 30s linear infinite;
+    animation-delay: -10s;
+    white-space: nowrap;
+  }
+
+  .font-script {
+    font-family: "Dancing Script", cursive, system-ui;
+  }
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@keyframes floating {
+  0% {
+    top: 100%;
+    left: 0%;
+    opacity: 1;
+  }
+  100% {
+    top: -20%;
+    left: 100%;
+    opacity: 0;
+  }
+}
