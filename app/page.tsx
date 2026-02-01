@@ -132,9 +132,9 @@ export default function BirthdayPage() {
       relation: "Best Friend"
     },
     {
-      name: "Mawooa",
-      text: "x",
-      relation: "Best Friend"
+      name: "Vashish ",
+      text: "Wish you a very happy birthday to my best CR and best President ever💃🏻♥️🥳. seki mo ena pou dir toi mo kontn ki mone kone toi ek tone help moi dan bku kitsoz ek I know whenever I needed your help you were here✌🏻 jamais mo pou blier man ki to ti mo premier kamarad ki mone fer dan uni 🥰. Ek osi tone fer moi kontn 1 club ki koumadir now sa club la form parti dan lavie astr thanks for that boss Contine slayyy like your name say slayhaaa😝👻",
+      relation: "mawaaa"
     },
     {
       name: "Bananakin",
@@ -143,8 +143,8 @@ export default function BirthdayPage() {
     },
     {
       name: "Sania",
-      text: "x",
-      relation: "Best Friend"
+      text: "⁠Happy Birthday to the coolest person ive ever met , imiss you & i hope we can do more sleepovers in the future. You’re the person who’s style i love the most amongst everyone in our little group. To another year of growing in strength, wisdom and being one of the smartest person i know <3",
+      relation: "Sania"
     },
     {
       name: "Dawson ( L'homme le plus grand de l'île Maurice)",
@@ -218,8 +218,8 @@ export default function BirthdayPage() {
     },
     {
       name: "Eshaa",
-      text: "x",
-      relation: "Best Friend"
+      text: "We danced into this friendship, you coded your way to the top as CC’s president while lighting up every room you walk in. HAPPY BIRTHDAY SNEHHHAAAAAAA <3",
+      relation: "tonandini"
     },
     {
       name: "Jameel",
@@ -227,9 +227,9 @@ export default function BirthdayPage() {
       relation: "Best Friend"
     },
     {
-      name: "Jug",
-      text: "x",
-      relation: "Best Friend"
+      name: "Abhishek",
+      text: "Happy birthday, Sneha 🥳 Wishing you an amazing year ahead. You’re a great person and a fun friend to be around. I’m definitely down for some badminton soon (hopefully without getting harassed this time lmao). Also, while I can’t exactly promise to stop farting 🙃😂, I can promise to keep making great memories together with everyone. Hope you have an awesome day of celebrating. See ya soon",
+      relation: "Jug"
     },
     {
       name: "Dooks",
@@ -238,13 +238,13 @@ export default function BirthdayPage() {
     },
     {
       name: "Noshita",
-      text: "x",
-      relation: "Best Friend"
+      text: "Happy birthday to the sweetest person I've ever met. You have a way of making everyone feel seen with your kindness and happy with your smile. Hope you continue to be the person who makes everyone around them feel lucky just to know you.❤",
+      relation: "Your gymnase bestie"
     },
     {
-      name: "Zayn",
-      text: "x",
-      relation: "Best Friend"
+      name: "zayn",
+      text: "Wishing mme presidente the happiest bd, slayy❤️",
+      relation: "Friend"
     },
   ]
 
