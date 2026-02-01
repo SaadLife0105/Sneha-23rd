@@ -159,8 +159,8 @@ export default function BirthdayPage() {
     },
     {
       name: "Jean (drugs)",
-      text: "x",
-      relation: "Best Friend"
+      text: "Mo la nek pou rappel toi ki mti cne to date l’anniversaire acoz ene 3eme zoint.",
+      relation: "zean"
     },
     {
       name: "Aviation",
@@ -204,18 +204,18 @@ export default function BirthdayPage() {
     },
     {
       name: "Djamel",
-      text: "x",
-      relation: "Best Friend"
+      text: "Certaines amitiés font juste une pause… puis reviennent pile pour les anniversaires (et les gâteaux). Joyeux anniv Sneha 💫",
+      relation: "D.R"
     },
     {
-      name: "Amy",
-      text: "x",
+      name: "Amy(mimi ah^^)",
+      text: "Bunny ahhhhh😚!!! I wish you a very happy birthday!! Fini ggn 23 ans, p vinn vieux mo truver. Keep slaying and shining as always.",
       relation: "Best Friend"
     },
     {
       name: "Danish",
-      text: "x",
-      relation: "Best Friend"
+      text: "Ki p dir presidente. Happy Birthday",
+      relation: "Best PSU"
     },
     {
       name: "Eshaa",
@@ -251,8 +251,8 @@ export default function BirthdayPage() {
 
   const galleryImages = [
     {
-    "src": "/domegallery/20251012_221407.jpg",
-    "alt": "20251012_221407"
+      "src": "/domegallery/20251012_221407.jpg",
+      "alt": "20251012_221407"
     },
     {
       "src": "/domegallery/20260107_182348.jpg",
@@ -323,12 +323,20 @@ export default function BirthdayPage() {
       "alt": "IMG-20251108-WA0039"
     },
     {
+      "src": "/domegallery/IMG-20251109-WA0005.jpg",
+      "alt": "IMG-20251109-WA0005"
+    },
+    {
       "src": "/domegallery/IMG-20251201-WA0023.jpg",
       "alt": "IMG-20251201-WA0023"
     },
     {
       "src": "/domegallery/IMG-20251201-WA0027.jpg",
       "alt": "IMG-20251201-WA0027"
+    },
+    {
+      "src": "/domegallery/IMG-20251208-WA0006.jpg",
+      "alt": "IMG-20251208-WA0006"
     },
     {
       "src": "/domegallery/IMG-20251220-WA0020.jpg",
@@ -355,24 +363,80 @@ export default function BirthdayPage() {
       "alt": "IMG-20260130-WA0012"
     },
     {
+      "src": "/domegallery/IMG-20260201-WA0075.jpg",
+      "alt": "IMG-20260201-WA0075"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0079.jpg",
+      "alt": "IMG-20260201-WA0079"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0081.jpg",
+      "alt": "IMG-20260201-WA0081"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0082.jpg",
+      "alt": "IMG-20260201-WA0082"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0084.jpg",
+      "alt": "IMG-20260201-WA0084"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0085.jpg",
+      "alt": "IMG-20260201-WA0085"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0090.jpg",
+      "alt": "IMG-20260201-WA0090"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0098.jpg",
+      "alt": "IMG-20260201-WA0098"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0104.jpg",
+      "alt": "IMG-20260201-WA0104"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0105.jpg",
+      "alt": "IMG-20260201-WA0105"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0108.jpg",
+      "alt": "IMG-20260201-WA0108"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0112.jpg",
+      "alt": "IMG-20260201-WA0112"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0121.jpg",
+      "alt": "IMG-20260201-WA0121"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0122 (1)fhd.jpg",
+      "alt": "IMG-20260201-WA0122 (1)fhd"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0122(1).jpg",
+      "alt": "IMG-20260201-WA0122(1)"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0136.jpg",
+      "alt": "IMG-20260201-WA0136"
+    },
+    {
+      "src": "/domegallery/IMG-20260201-WA0143.jpg",
+      "alt": "IMG-20260201-WA0143"
+    },
+    {
       "src": "/domegallery/PSX_20251229_210647.jpg",
       "alt": "PSX_20251229_210647"
     },
     {
-      "src": "/domegallery/PSX_20251229_210858.jpg",
-      "alt": "PSX_20251229_210858"
-    },
-    {
       "src": "/domegallery/PSX_20251229_211417.jpg",
       "alt": "PSX_20251229_211417"
-    },
-    {
-      "src": "/domegallery/PSX_20251229_211550.jpg",
-      "alt": "PSX_20251229_211550"
-    },
-    {
-      "src": "/domegallery/PSX_20251229_211955.jpg",
-      "alt": "PSX_20251229_211955"
     },
     {
       "src": "/domegallery/PSX_20251229_212731.jpg",
@@ -393,10 +457,6 @@ export default function BirthdayPage() {
     {
       "src": "/domegallery/PSX_20251229_214537.jpg",
       "alt": "PSX_20251229_214537"
-    },
-    {
-      "src": "/domegallery/psx_20251229_214723.jpg",
-      "alt": "psx_20251229_214723"
     },
     {
       "src": "/domegallery/PSX_20251229_215027.jpg",
@@ -423,10 +483,6 @@ export default function BirthdayPage() {
       "alt": "PSX_20251229_232446"
     },
     {
-      "src": "/domegallery/PSX_20251229_232657.jpg",
-      "alt": "PSX_20251229_232657"
-    },
-    {
       "src": "/domegallery/PSX_20251229_232837.jpg",
       "alt": "PSX_20251229_232837"
     },
@@ -435,24 +491,12 @@ export default function BirthdayPage() {
       "alt": "PSX_20251229_233116"
     },
     {
-      "src": "/domegallery/psx_20251229_233515.jpg",
-      "alt": "psx_20251229_233515"
-    },
-    {
       "src": "/domegallery/PSX_20251229_234212.jpg",
       "alt": "PSX_20251229_234212"
     },
     {
       "src": "/domegallery/PSX_20251229_234338.jpg",
       "alt": "PSX_20251229_234338"
-    },
-    {
-      "src": "/domegallery/PSX_20251229_234545.jpg",
-      "alt": "PSX_20251229_234545"
-    },
-    {
-      "src": "/domegallery/psx_20251230_150910.jpg",
-      "alt": "psx_20251230_150910"
     },
     {
       "src": "/domegallery/PSX_20251230_174135.jpg",
@@ -471,16 +515,8 @@ export default function BirthdayPage() {
       "alt": "PSX_20251231_014729"
     },
     {
-      "src": "/domegallery/PSX_20251231_014959.jpg",
-      "alt": "PSX_20251231_014959"
-    },
-    {
       "src": "/domegallery/PSX_20251231_015543.jpg",
       "alt": "PSX_20251231_015543"
-    },
-    {
-      "src": "/domegallery/PSX_20251231_015755.jpg",
-      "alt": "PSX_20251231_015755"
     },
     {
       "src": "/domegallery/Screenshot_20251119_004102_Instagram.jpg",
@@ -489,6 +525,78 @@ export default function BirthdayPage() {
     {
       "src": "/domegallery/Screenshot_20251119_004211_Instagram.jpg",
       "alt": "Screenshot_20251119_004211_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_204137_Snapchat.jpg",
+      "alt": "Screenshot_20260201_204137_Snapchat"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_204206_Snapchat.jpg",
+      "alt": "Screenshot_20260201_204206_Snapchat"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_204224_Snapchat.jpg",
+      "alt": "Screenshot_20260201_204224_Snapchat"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_233803_Instagram.jpg",
+      "alt": "Screenshot_20260201_233803_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_234850_Instagram.jpg",
+      "alt": "Screenshot_20260201_234850_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_234938_Instagram.jpg",
+      "alt": "Screenshot_20260201_234938_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_234943_Instagram.jpg",
+      "alt": "Screenshot_20260201_234943_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_234950_Instagram.jpg",
+      "alt": "Screenshot_20260201_234950_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_234954_Instagram.jpg",
+      "alt": "Screenshot_20260201_234954_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_235010_Instagram.jpg",
+      "alt": "Screenshot_20260201_235010_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_235032_Instagram.jpg",
+      "alt": "Screenshot_20260201_235032_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_235126_Instagram.jpg",
+      "alt": "Screenshot_20260201_235126_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_235223_Instagram.jpg",
+      "alt": "Screenshot_20260201_235223_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_235237_Instagram.jpg",
+      "alt": "Screenshot_20260201_235237_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_235334_Instagram.jpg",
+      "alt": "Screenshot_20260201_235334_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20260201_235600_Instagram.jpg",
+      "alt": "Screenshot_20260201_235600_Instagram"
+    },
+    {
+      "src": "/domegallery/Snapchat-1735644739.jpg",
+      "alt": "Snapchat-1735644739"
+    },
+    {
+      "src": "/domegallery/Snapchat-1905673849.jpg",
+      "alt": "Snapchat-1905673849"
     }
   ]
 
@@ -588,7 +696,7 @@ export default function BirthdayPage() {
         <div className="max-w-4xl mx-auto z-10">
           <motion.div
             className="bg-gradient-to-br from-purple-950/50 to-pink-950/50 p-8 md:p-12 rounded-2xl shadow-2xl shadow-purple-500/10 border border-purple-500/10 backdrop-blur-sm relative overflow-hidden"
-            initial="hidden"
+            initial="visible"
             animate={messageControls}
             variants={{
               hidden: { opacity: 0, y: 100 },
