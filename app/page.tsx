@@ -937,7 +937,7 @@ export default function BirthdayPage() {
       <footer className="py-8 mt-16 bg-black text-center text-purple-300 text-sm mx-2">
         <p>
           I hope you enjoyed this little gift, its not that big or complex now but it will be insane when the new updates roll out.
-          Until next year, my wittle bb.
+          Until next year my wittle bb, love youuuuu.❤️❤️❤️
         </p>
         <p>(Sponsored by Zak)</p>
       </footer>
