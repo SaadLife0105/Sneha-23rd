@@ -76,7 +76,7 @@
     @apply absolute text-6xl;
     animation: floating 30s linear infinite;
     animation-delay: -10s;
-    white-space: nowrap;
+    white-space: nowrap; 
   }
 
   .font-script {

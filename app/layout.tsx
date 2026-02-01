@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Happy 21st Birthday Eiliyah!",
-  description: "Celebrating Eiliyah's 21st birthday with love and joy",
+  title: "Happy 23rd Birthday Sneha Beeltah!",
+  description: "Celebrating Sneha Beeltah's 23rd birthday with love and joy",
     generator: 'v0.app'
 }
 

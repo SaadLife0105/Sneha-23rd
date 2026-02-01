@@ -2,14 +2,13 @@
 
 import { useEffect, useRef, useState } from "react"
 import { motion, useAnimation, useInView } from "framer-motion"
-import { Cake, Gift, Heart, Music, PartyPopper, Sparkles } from "lucide-react"
-import Confetti from "react-confetti"
+import { Gift, Heart, PartyPopper } from "lucide-react"
 import { TypeAnimation } from "react-type-animation"
+import Particles from "../components/Particles"
+import DomeGallery from "../components/DomeGallery"
 
-import { Button } from "@/components/ui/button"
 
 export default function BirthdayPage() {
-  const [showConfetti, setShowConfetti] = useState(false)
   const [windowSize, setWindowSize] = useState({
     width: typeof window !== "undefined" ? window.innerWidth : 0,
     height: typeof window !== "undefined" ? window.innerHeight : 0,
@@ -19,21 +18,22 @@ export default function BirthdayPage() {
   const messageRef = useRef(null)
   const wishesRef = useRef(null)
 
-  const heroInView = useInView(heroRef, { once: false })
   const messageInView = useInView(messageRef, { once: false })
-  const wishesInView = useInView(wishesRef, { once: false })
+  const wishesInView = useInView(wishesRef, { once: true })
 
   const heroControls = useAnimation()
   const messageControls = useAnimation()
   const wishesControls = useAnimation()
 
+  // Remove this useEffect:
+  // useEffect(() => {
+  //   if (heroInView) heroControls.start("visible")
+  // }, [heroInView, heroControls])
+
+  // Add this useEffect to trigger animation only once on mount:
   useEffect(() => {
-    if (heroInView) {
-      heroControls.start("visible")
-      setTimeout(() => setShowConfetti(true), 1000)
-      setTimeout(() => setShowConfetti(false), 8000)
-    }
-  }, [heroInView, heroControls])
+    heroControls.start("visible")
+  }, [heroControls])
 
   useEffect(() => {
     if (messageInView) messageControls.start("visible")
@@ -55,65 +55,414 @@ export default function BirthdayPage() {
     return () => window.removeEventListener("resize", handleResize)
   }, [])
 
-  const triggerConfetti = () => {
-    setShowConfetti(true)
-    setTimeout(() => setShowConfetti(false), 5000)
-  }
-
-  const quranQuotes = [
+  const friendMessages = [
     {
-      verse: "Indeed, with hardship comes ease. Indeed, with hardship comes ease.",
-      reference: "Quran 94:5-6",
+      name: "Tonya",
+      text: "x",
+      relation: "Best Friend",
     },
     {
-      verse: "And whoever puts their trust in Allah, then He will suffice him.",
-      reference: "Quran 65:3",
+      name: "mae",
+      text: "to the girl who watched me pee in a bin and did not judge ❤️ i wish you the happiest 23rd, with the perfect body, perfect bf and perfect friends😏 tout le meilleur pour cette année, comme tu le mérites. gros bisous x",
+      relation: "friend since 2021, ceo of party house",
     },
     {
-      verse: "So verily, with the hardship, there is relief. Verily, with the hardship, there is relief.",
-      reference: "Quran 94:5-6",
+      name: "Sim",
+      text: "I wish everyone gets a friend like you that's caring and selfless and always ready to be present. Nothing will ever convey how grateful I am for you  <3",
+      relation: "spaghettiandsushi"
     },
     {
-      verse: "Allah does not burden a soul beyond that it can bear.",
-      reference: "Quran 2:286",
+      name: "Mayuree",
+      text: "x",
+      relation: "Best Friend"
     },
     {
-      verse: "And He found you lost and guided you.",
-      reference: "Quran 93:7",
+      name: "Dookia",
+      text: "x",
+      relation: "Best Friend"
     },
     {
-      verse: "And whoever is grateful, truly, his gratitude is for his own good.",
-      reference: "Quran 27:40",
+      name: "Rafa",
+      text: "x",
+      relation: "Best Friend"
     },
     {
-      verse: "Indeed, Allah is with the patient.",
-      reference: "Quran 2:153",
+      name: "Harsh",
+      text: "x",
+      relation: "Best Friend"
     },
     {
-      verse: "And your Lord says, 'Call upon Me; I will respond to you.'",
-      reference: "Quran 40:60",
+      name: "Priyanka",
+      text: "x",
+      relation: "Best Friend"
     },
     {
-      verse: "Kot geter, lascar fan kk",
-      reference: "Zak",
+      name: "Nived",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Sivam",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Zeaven",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Shivanen",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Mawooa",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Anakin",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Sania",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Dawson",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Ryan Bhugmonia",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Jean (drugs)",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Aviation",
+      text: "⁠aret boire kan pas cave",
+      relation: "campement cote kelly"
+    },
+    {
+      name: "Bhavya",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Chum (Chonky papa bear)",
+      text: "Born to slay, forced to age! Happy birthday, lil sis",
+      relation: "#OnePieceGang"
+    },
+    {
+      name: "Kuvaj",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Zarah",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Suhail",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Zakariyya",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Aneekesh",
+      text: "x",
+      relation: "Best Friend"
     },
   ]
 
-  return (
-    <div className="min-h-screen bg-black text-white overflow-hidden">
-      {showConfetti && <Confetti width={windowSize.width} height={windowSize.height} recycle={false} />}
+  const galleryImages = [
+    {
+    "src": "/domegallery/20251012_221407.jpg",
+    "alt": "20251012_221407"
+  },
+  {
+    "src": "/domegallery/20260107_182348.jpg",
+    "alt": "20260107_182348"
+  },
+  {
+    "src": "/domegallery/IMG-20251006-WA0005.jpg",
+    "alt": "IMG-20251006-WA0005"
+  },
+  {
+    "src": "/domegallery/IMG-20251007-WA0057.jpg",
+    "alt": "IMG-20251007-WA0057"
+  },
+  {
+    "src": "/domegallery/IMG-20251007-WA0475.jpg",
+    "alt": "IMG-20251007-WA0475"
+  },
+  {
+    "src": "/domegallery/IMG-20251013-WA0135.jpg",
+    "alt": "IMG-20251013-WA0135"
+  },
+  {
+    "src": "/domegallery/IMG-20251013-WA0164.jpg",
+    "alt": "IMG-20251013-WA0164"
+  },
+  {
+    "src": "/domegallery/IMG-20251013-WA0207.jpg",
+    "alt": "IMG-20251013-WA0207"
+  },
+  {
+    "src": "/domegallery/IMG-20251017-WA0068.jpg",
+    "alt": "IMG-20251017-WA0068"
+  },
+  {
+    "src": "/domegallery/IMG-20251017-WA0080.jpg",
+    "alt": "IMG-20251017-WA0080"
+  },
+  {
+    "src": "/domegallery/IMG-20251020-WA0080.jpg",
+    "alt": "IMG-20251020-WA0080"
+  },
+  {
+    "src": "/domegallery/IMG-20251020-WA0082.jpg",
+    "alt": "IMG-20251020-WA0082"
+  },
+  {
+    "src": "/domegallery/IMG-20251020-WA0085.jpg",
+    "alt": "IMG-20251020-WA0085"
+  },
+  {
+    "src": "/domegallery/IMG-20251027-WA0097.jpg",
+    "alt": "IMG-20251027-WA0097"
+  },
+  {
+    "src": "/domegallery/IMG-20251029-WA0060.jpg",
+    "alt": "IMG-20251029-WA0060"
+  },
+  {
+    "src": "/domegallery/IMG-20251101-WA0000.jpg",
+    "alt": "IMG-20251101-WA0000"
+  },
+  {
+    "src": "/domegallery/IMG-20251108-WA0025.jpg",
+    "alt": "IMG-20251108-WA0025"
+  },
+  {
+    "src": "/domegallery/IMG-20251108-WA0039.jpg",
+    "alt": "IMG-20251108-WA0039"
+  },
+  {
+    "src": "/domegallery/IMG-20251201-WA0023.jpg",
+    "alt": "IMG-20251201-WA0023"
+  },
+  {
+    "src": "/domegallery/IMG-20251201-WA0027.jpg",
+    "alt": "IMG-20251201-WA0027"
+  },
+  {
+    "src": "/domegallery/IMG-20251220-WA0020.jpg",
+    "alt": "IMG-20251220-WA0020"
+  },
+  {
+    "src": "/domegallery/IMG-20251220-WA0035.jpg",
+    "alt": "IMG-20251220-WA0035"
+  },
+  {
+    "src": "/domegallery/IMG-20260110-WA0000.jpg",
+    "alt": "IMG-20260110-WA0000"
+  },
+  {
+    "src": "/domegallery/IMG-20260113-WA0024.jpg",
+    "alt": "IMG-20260113-WA0024"
+  },
+  {
+    "src": "/domegallery/IMG-20260123-WA0026.jpg",
+    "alt": "IMG-20260123-WA0026"
+  },
+  {
+    "src": "/domegallery/IMG-20260130-WA0012.jpg",
+    "alt": "IMG-20260130-WA0012"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_210647.jpg",
+    "alt": "PSX_20251229_210647"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_210858.jpg",
+    "alt": "PSX_20251229_210858"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_211417.jpg",
+    "alt": "PSX_20251229_211417"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_211550.jpg",
+    "alt": "PSX_20251229_211550"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_211955.jpg",
+    "alt": "PSX_20251229_211955"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_212731.jpg",
+    "alt": "PSX_20251229_212731"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_213345.jpg",
+    "alt": "PSX_20251229_213345"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_213751.jpg",
+    "alt": "PSX_20251229_213751"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_214101.jpg",
+    "alt": "PSX_20251229_214101"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_214537.jpg",
+    "alt": "PSX_20251229_214537"
+  },
+  {
+    "src": "/domegallery/psx_20251229_214723.jpg",
+    "alt": "psx_20251229_214723"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_215027.jpg",
+    "alt": "PSX_20251229_215027"
+  },
+  {
+    "src": "/domegallery/psx_20251229_230553.jpg",
+    "alt": "psx_20251229_230553"
+  },
+  {
+    "src": "/domegallery/psx_20251229_230744.jpg",
+    "alt": "psx_20251229_230744"
+  },
+  {
+    "src": "/domegallery/psx_20251229_230948.jpg",
+    "alt": "psx_20251229_230948"
+  },
+  {
+    "src": "/domegallery/psx_20251229_231209.jpg",
+    "alt": "psx_20251229_231209"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_232446.jpg",
+    "alt": "PSX_20251229_232446"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_232657.jpg",
+    "alt": "PSX_20251229_232657"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_232837.jpg",
+    "alt": "PSX_20251229_232837"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_233116.jpg",
+    "alt": "PSX_20251229_233116"
+  },
+  {
+    "src": "/domegallery/psx_20251229_233515.jpg",
+    "alt": "psx_20251229_233515"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_234212.jpg",
+    "alt": "PSX_20251229_234212"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_234338.jpg",
+    "alt": "PSX_20251229_234338"
+  },
+  {
+    "src": "/domegallery/PSX_20251229_234545.jpg",
+    "alt": "PSX_20251229_234545"
+  },
+  {
+    "src": "/domegallery/psx_20251230_150910.jpg",
+    "alt": "psx_20251230_150910"
+  },
+  {
+    "src": "/domegallery/PSX_20251230_174135.jpg",
+    "alt": "PSX_20251230_174135"
+  },
+  {
+    "src": "/domegallery/PSX_20251230_174307.jpg",
+    "alt": "PSX_20251230_174307"
+  },
+  {
+    "src": "/domegallery/PSX_20251231_014507.jpg",
+    "alt": "PSX_20251231_014507"
+  },
+  {
+    "src": "/domegallery/PSX_20251231_014729.jpg",
+    "alt": "PSX_20251231_014729"
+  },
+  {
+    "src": "/domegallery/PSX_20251231_014959.jpg",
+    "alt": "PSX_20251231_014959"
+  },
+  {
+    "src": "/domegallery/PSX_20251231_015543.jpg",
+    "alt": "PSX_20251231_015543"
+  },
+  {
+    "src": "/domegallery/PSX_20251231_015755.jpg",
+    "alt": "PSX_20251231_015755"
+  },
+  {
+    "src": "/domegallery/Screenshot_20251119_004102_Instagram.jpg",
+    "alt": "Screenshot_20251119_004102_Instagram"
+  },
+  {
+    "src": "/domegallery/Screenshot_20251119_004211_Instagram.jpg",
+    "alt": "Screenshot_20251119_004211_Instagram"
+  }
+  ]
 
+  return (
+    <div className="min-h-screen bg-black text-white overflow-visible">
       {/* Hero Section */}
       <section
         ref={heroRef}
-        className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden py-20"
+        className="relative min-h-screen flex flex-col items-center justify-center overflow-visible py-20"
       >
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-black to-pink-900/20" />
-          <div className="stars" />
-          <div className="twinkling" />
+        {/* Particles Background */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            zIndex: 0,
+            pointerEvents: "none",
+          }}
+        >
+          <Particles
+            className=""
+            particleColors={["#ffffff"]}
+            particleCount={200}
+            particleSpread={10}
+            speed={0.1}
+            particleBaseSize={100}
+            moveParticlesOnHover
+            alphaParticles={false}
+            disableRotation={false}
+            pixelRatio={1}
+          />
         </div>
-
+        {/* Main Hero Content */}
         <motion.div
           className="z-10 text-center px-4"
           initial="hidden"
@@ -129,28 +478,28 @@ export default function BirthdayPage() {
             transition={{ delay: 0.5, duration: 0.8, type: "tween", ease: "easeOut" }}
             className="inline-block"
           >
-            <PartyPopper className="h-16 w-16 mx-auto mb-4 text-pink-400" />
+            <img src="/confetti.gif" alt="Confetti" className="h-24 w-24 mx-auto mb-4 object-contain" />
           </motion.div>
 
           <motion.h1
-            className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500"
+            className="text-5xl md:text-7xl font-bold mb-6 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-[#BB8BB4] via-[#A33BBA] to-[#BB8BB4]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 1 }}
           >
-            Happy 21st Birthday!
+            Happy 23rd Birthday!
           </motion.h1>
-
-          <div className="h-16 mb-8">
+          
+          <div className="h-14 mb-8">
             <TypeAnimation
               sequence={[
-                "Eiliyah",
+                "Sneha Beeltah",
                 2000,
-                "The Amazing Eiliyah",
+                "The Gorgeous Sneha Beeltah",
                 2000,
-                "The Fabulous Eiliyah",
+                "The Amazing Sneha Beeltah",
                 2000,
-                "The Beautiful Eiliyah",
+                "The Perfect Gworl: Sneha Beeltah",
                 2000,
               ]}
               wrapper="h2"
@@ -161,12 +510,6 @@ export default function BirthdayPage() {
           </div>
 
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2, duration: 1 }}>
-            <Button
-              onClick={triggerConfetti}
-              className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-full text-lg shadow-lg shadow-purple-500/30 transition-all hover:scale-105"
-            >
-              <Sparkles className="mr-2 h-5 w-5" /> Celebrate!
-            </Button>
           </motion.div>
         </motion.div>
 
@@ -206,16 +549,8 @@ export default function BirthdayPage() {
               }}
               className="flex justify-center mb-8"
             >
-              <div className="relative">
-                <Cake className="h-16 w-16 text-pink-400" />
-                <motion.div
-                  className="absolute -top-1 -right-1 h-4 w-4 rounded-full bg-yellow-400"
-                  animate={{
-                    scale: [1, 1.5, 1],
-                    opacity: [0.5, 1, 0.5],
-                  }}
-                  transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}
-                />
+              <div className="relative bg-transparent">
+                <img src="/cake.gif" alt="Cake" className="h-16 w-16 object-contain bg-transparent" style={{ background: 'transparent' }} />
               </div>
             </motion.div>
 
@@ -226,7 +561,7 @@ export default function BirthdayPage() {
               }}
               className="text-3xl md:text-4xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400"
             >
-              A Special Message For You
+              A pecial message from yo boi
             </motion.h2>
 
             <motion.div
@@ -236,18 +571,27 @@ export default function BirthdayPage() {
               }}
               className="space-y-4 text-lg text-purple-100"
             >
-              <p>Dear Eiliyah,</p>
+              <p>Dear Slayha,</p>
               <p>
-                On your 21st birthday, I wanted to create something special to celebrate this amazing milestone in your
-                life. As you turn 21, you're stepping into a new chapter filled with endless possibilities and
-                adventures.
+                I wish that this birthday makes up for all the ones before where you didn't get the celebration you deserved. 
+                You are the most wonderful, fun, pretty, smart, drop dead gorgeoous, talented, amazing person that I've ever had the chance to meet.
+                You have blessed me with your presence ever since you came into my life and I will try my best to make up for everything 
+                you have ever went through to make you forget all about it (and so that I can be worthy of you too eheh). 
+                I will try my best to make you happy every second of every day so that you never have to feel sad or lonely ever again.
               </p>
               <p>
-                Your kindness, strength, and beautiful spirit have touched so many lives around you. May this year bring
-                you all the joy, success, and happiness you deserve.
+
               </p>
-              <p>Here's to celebrating you today and always!</p>
-              <p className="text-right font-script text-xl text-pink-300">With love,</p>
+              <p>
+                If everyone in this world supports you then I am one of them. If only one person supports you, then I am that person.
+                If no one supports you, then I am no longer here, but even then I will come back and haunt you so that we can stay
+                together forever (You are not allowed to be with someone else if i die btw).
+              </p>
+              <p>
+                I love you, with everything I have Sneha Beeltah because you are my everything, my one and only, my soulmate, my wife, 
+                MY GWORL, happy birthdayyyyyy. ❤️
+              </p>
+              <p className="text-right font-script text-xl text-pink-300">With love, your pretty boi, Sa'ad Kherdali</p>
             </motion.div>
 
             <motion.div
@@ -266,14 +610,9 @@ export default function BirthdayPage() {
             </motion.div>
           </motion.div>
         </div>
-
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-900/10 via-black to-pink-900/10" />
-          <div className="floating-hearts" />
-        </div>
       </section>
 
-      {/* Quran Quotes */}
+      {/* Messages from Friends */}
       <section
         ref={wishesRef}
         className="min-h-screen py-20 bg-gradient-to-b from-black to-purple-950/20 relative px-4"
@@ -301,9 +640,9 @@ export default function BirthdayPage() {
               initial={{ y: 50, opacity: 0 }}
               animate={wishesInView ? { y: 0, opacity: 1 } : {}}
               transition={{ duration: 0.8 }}
-              className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400"
+              className="text-4xl md:text-5xl font-bold mb-4 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400"
             >
-              Wisdom from the Quran
+              Wishes from yo fwends
             </motion.h2>
 
             <motion.p
@@ -312,12 +651,12 @@ export default function BirthdayPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl text-purple-200 max-w-2xl mx-auto"
             >
-              Beautiful verses to guide and inspire your journey
+              Some special messages from all of your special friends (pun intended).
             </motion.p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {quranQuotes.map((quote, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+            {friendMessages.map((msg, index) => (
               <motion.div
                 key={index}
                 className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 p-6 rounded-xl border border-purple-500/10 backdrop-blur-sm shadow-lg"
@@ -327,13 +666,11 @@ export default function BirthdayPage() {
                 whileHover={{ y: -10, transition: { duration: 0.2 } }}
               >
                 <div className="flex items-center mb-4">
-                  <div className="h-10 w-10 rounded-full bg-pink-500/20 flex items-center justify-center mr-3">
-                    <span className="text-pink-400 font-bold">{index + 1}</span>
-                  </div>
-                  <h3 className="text-xl font-bold text-purple-200">Quran</h3>
+                  {/* Removed number */}
+                  <h3 className="text-xl font-bold text-purple-200">{msg.name}</h3>
                 </div>
-                <p className="text-purple-100 mb-3">"{quote.verse}"</p>
-                <p className="text-right text-pink-300 text-sm italic">{quote.reference}</p>
+                <p className="text-purple-100 mb-3">"{msg.text}"</p>
+                <p className="text-right italic text-pink-300 text-sm">- {msg.relation}</p>
               </motion.div>
             ))}
           </div>
@@ -344,19 +681,43 @@ export default function BirthdayPage() {
             animate={wishesInView ? { opacity: 1 } : {}}
             transition={{ duration: 1, delay: 1 }}
           >
-            <Button
-              onClick={triggerConfetti}
-              className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg shadow-purple-500/30 transition-all hover:scale-105 group"
-            >
-              <Music className="mr-2 h-5 w-5 group-hover:animate-spin" /> Let's Celebrate!
-            </Button>
           </motion.div>
         </motion.div>
       </section>
 
+      {/* Dome Gallery Section */}
+      <section className="min-h-screen py-0 bg-gradient-to-b from-purple-950/20 to-black relative px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center lg:mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400">
+              The Slaying
+            </h2>
+            <p className="text-xl text-purple-200 max-w-2xl mx-auto">
+              A place for all the times you slayed (which is basically all the time).
+            </p>
+          </div>
+          <div className=" shadow-2xl shadow-purple-500/10 backdrop-blur-sm bg-gradient-to-br from-purple-950/30 to-pink-950/30 ">
+            <div style={{ width: '100vw', maxWidth: '100%', height: '90vh' }}>
+              <DomeGallery
+                images={galleryImages}
+                fit={0.8}
+                minRadius={600}
+                maxVerticalRotationDeg={0}
+                segments={34}
+                dragDampening={2}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer className="py-8 bg-black text-center text-purple-300 text-sm">
-        <p>Made with ❤️ for Eiliyah's 21st Birthday</p>
+      <footer className="py-8 mt-16 bg-black text-center text-purple-300 text-sm mx-2">
+        <p>
+          I hope you enjoyed this little gift, its not that big or complex now but it will be insane when the new updates roll out.
+          Until next year, my wittle bb.
+        </p>
+        <p>(Sponsored by Zak)</p>
       </footer>
     </div>
   )
