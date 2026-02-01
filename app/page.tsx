@@ -223,8 +223,8 @@ export default function BirthdayPage() {
     },
     {
       name: "Jameel",
-      text: "x",
-      relation: "Best Friend"
+      text: "Happy Birthday Sneha 🎉 bondier garde toi bien…Have a blessed day!",
+      relation: "from 1 biver disans ki pas cave blier 😅"
     },
     {
       name: "Abhishek",
@@ -232,9 +232,9 @@ export default function BirthdayPage() {
       relation: "Jug"
     },
     {
-      name: "Dooks",
-      text: "x",
-      relation: "Best Friend"
+      name: "From Dooks CC",
+      text: "Happiest Birthday girlypop thank for being the awesome you. Am proud of you as always.",
+      relation: "QUIN OF CC"
     },
     {
       name: "Noshita",
@@ -252,243 +252,243 @@ export default function BirthdayPage() {
     {
     "src": "/domegallery/20251012_221407.jpg",
     "alt": "20251012_221407"
-  },
-  {
-    "src": "/domegallery/20260107_182348.jpg",
-    "alt": "20260107_182348"
-  },
-  {
-    "src": "/domegallery/IMG-20251006-WA0005.jpg",
-    "alt": "IMG-20251006-WA0005"
-  },
-  {
-    "src": "/domegallery/IMG-20251007-WA0057.jpg",
-    "alt": "IMG-20251007-WA0057"
-  },
-  {
-    "src": "/domegallery/IMG-20251007-WA0475.jpg",
-    "alt": "IMG-20251007-WA0475"
-  },
-  {
-    "src": "/domegallery/IMG-20251013-WA0135.jpg",
-    "alt": "IMG-20251013-WA0135"
-  },
-  {
-    "src": "/domegallery/IMG-20251013-WA0164.jpg",
-    "alt": "IMG-20251013-WA0164"
-  },
-  {
-    "src": "/domegallery/IMG-20251013-WA0207.jpg",
-    "alt": "IMG-20251013-WA0207"
-  },
-  {
-    "src": "/domegallery/IMG-20251017-WA0068.jpg",
-    "alt": "IMG-20251017-WA0068"
-  },
-  {
-    "src": "/domegallery/IMG-20251017-WA0080.jpg",
-    "alt": "IMG-20251017-WA0080"
-  },
-  {
-    "src": "/domegallery/IMG-20251020-WA0080.jpg",
-    "alt": "IMG-20251020-WA0080"
-  },
-  {
-    "src": "/domegallery/IMG-20251020-WA0082.jpg",
-    "alt": "IMG-20251020-WA0082"
-  },
-  {
-    "src": "/domegallery/IMG-20251020-WA0085.jpg",
-    "alt": "IMG-20251020-WA0085"
-  },
-  {
-    "src": "/domegallery/IMG-20251027-WA0097.jpg",
-    "alt": "IMG-20251027-WA0097"
-  },
-  {
-    "src": "/domegallery/IMG-20251029-WA0060.jpg",
-    "alt": "IMG-20251029-WA0060"
-  },
-  {
-    "src": "/domegallery/IMG-20251101-WA0000.jpg",
-    "alt": "IMG-20251101-WA0000"
-  },
-  {
-    "src": "/domegallery/IMG-20251108-WA0025.jpg",
-    "alt": "IMG-20251108-WA0025"
-  },
-  {
-    "src": "/domegallery/IMG-20251108-WA0039.jpg",
-    "alt": "IMG-20251108-WA0039"
-  },
-  {
-    "src": "/domegallery/IMG-20251201-WA0023.jpg",
-    "alt": "IMG-20251201-WA0023"
-  },
-  {
-    "src": "/domegallery/IMG-20251201-WA0027.jpg",
-    "alt": "IMG-20251201-WA0027"
-  },
-  {
-    "src": "/domegallery/IMG-20251220-WA0020.jpg",
-    "alt": "IMG-20251220-WA0020"
-  },
-  {
-    "src": "/domegallery/IMG-20251220-WA0035.jpg",
-    "alt": "IMG-20251220-WA0035"
-  },
-  {
-    "src": "/domegallery/IMG-20260110-WA0000.jpg",
-    "alt": "IMG-20260110-WA0000"
-  },
-  {
-    "src": "/domegallery/IMG-20260113-WA0024.jpg",
-    "alt": "IMG-20260113-WA0024"
-  },
-  {
-    "src": "/domegallery/IMG-20260123-WA0026.jpg",
-    "alt": "IMG-20260123-WA0026"
-  },
-  {
-    "src": "/domegallery/IMG-20260130-WA0012.jpg",
-    "alt": "IMG-20260130-WA0012"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_210647.jpg",
-    "alt": "PSX_20251229_210647"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_210858.jpg",
-    "alt": "PSX_20251229_210858"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_211417.jpg",
-    "alt": "PSX_20251229_211417"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_211550.jpg",
-    "alt": "PSX_20251229_211550"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_211955.jpg",
-    "alt": "PSX_20251229_211955"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_212731.jpg",
-    "alt": "PSX_20251229_212731"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_213345.jpg",
-    "alt": "PSX_20251229_213345"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_213751.jpg",
-    "alt": "PSX_20251229_213751"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_214101.jpg",
-    "alt": "PSX_20251229_214101"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_214537.jpg",
-    "alt": "PSX_20251229_214537"
-  },
-  {
-    "src": "/domegallery/psx_20251229_214723.jpg",
-    "alt": "psx_20251229_214723"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_215027.jpg",
-    "alt": "PSX_20251229_215027"
-  },
-  {
-    "src": "/domegallery/psx_20251229_230553.jpg",
-    "alt": "psx_20251229_230553"
-  },
-  {
-    "src": "/domegallery/psx_20251229_230744.jpg",
-    "alt": "psx_20251229_230744"
-  },
-  {
-    "src": "/domegallery/psx_20251229_230948.jpg",
-    "alt": "psx_20251229_230948"
-  },
-  {
-    "src": "/domegallery/psx_20251229_231209.jpg",
-    "alt": "psx_20251229_231209"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_232446.jpg",
-    "alt": "PSX_20251229_232446"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_232657.jpg",
-    "alt": "PSX_20251229_232657"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_232837.jpg",
-    "alt": "PSX_20251229_232837"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_233116.jpg",
-    "alt": "PSX_20251229_233116"
-  },
-  {
-    "src": "/domegallery/psx_20251229_233515.jpg",
-    "alt": "psx_20251229_233515"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_234212.jpg",
-    "alt": "PSX_20251229_234212"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_234338.jpg",
-    "alt": "PSX_20251229_234338"
-  },
-  {
-    "src": "/domegallery/PSX_20251229_234545.jpg",
-    "alt": "PSX_20251229_234545"
-  },
-  {
-    "src": "/domegallery/psx_20251230_150910.jpg",
-    "alt": "psx_20251230_150910"
-  },
-  {
-    "src": "/domegallery/PSX_20251230_174135.jpg",
-    "alt": "PSX_20251230_174135"
-  },
-  {
-    "src": "/domegallery/PSX_20251230_174307.jpg",
-    "alt": "PSX_20251230_174307"
-  },
-  {
-    "src": "/domegallery/PSX_20251231_014507.jpg",
-    "alt": "PSX_20251231_014507"
-  },
-  {
-    "src": "/domegallery/PSX_20251231_014729.jpg",
-    "alt": "PSX_20251231_014729"
-  },
-  {
-    "src": "/domegallery/PSX_20251231_014959.jpg",
-    "alt": "PSX_20251231_014959"
-  },
-  {
-    "src": "/domegallery/PSX_20251231_015543.jpg",
-    "alt": "PSX_20251231_015543"
-  },
-  {
-    "src": "/domegallery/PSX_20251231_015755.jpg",
-    "alt": "PSX_20251231_015755"
-  },
-  {
-    "src": "/domegallery/Screenshot_20251119_004102_Instagram.jpg",
-    "alt": "Screenshot_20251119_004102_Instagram"
-  },
-  {
-    "src": "/domegallery/Screenshot_20251119_004211_Instagram.jpg",
-    "alt": "Screenshot_20251119_004211_Instagram"
-  }
+    },
+    {
+      "src": "/domegallery/20260107_182348.jpg",
+      "alt": "20260107_182348"
+    },
+    {
+      "src": "/domegallery/IMG-20251006-WA0005.jpg",
+      "alt": "IMG-20251006-WA0005"
+    },
+    {
+      "src": "/domegallery/IMG-20251007-WA0057.jpg",
+      "alt": "IMG-20251007-WA0057"
+    },
+    {
+      "src": "/domegallery/IMG-20251007-WA0475.jpg",
+      "alt": "IMG-20251007-WA0475"
+    },
+    {
+      "src": "/domegallery/IMG-20251013-WA0135.jpg",
+      "alt": "IMG-20251013-WA0135"
+    },
+    {
+      "src": "/domegallery/IMG-20251013-WA0164.jpg",
+      "alt": "IMG-20251013-WA0164"
+    },
+    {
+      "src": "/domegallery/IMG-20251013-WA0207.jpg",
+      "alt": "IMG-20251013-WA0207"
+    },
+    {
+      "src": "/domegallery/IMG-20251017-WA0068.jpg",
+      "alt": "IMG-20251017-WA0068"
+    },
+    {
+      "src": "/domegallery/IMG-20251017-WA0080.jpg",
+      "alt": "IMG-20251017-WA0080"
+    },
+    {
+      "src": "/domegallery/IMG-20251020-WA0080.jpg",
+      "alt": "IMG-20251020-WA0080"
+    },
+    {
+      "src": "/domegallery/IMG-20251020-WA0082.jpg",
+      "alt": "IMG-20251020-WA0082"
+    },
+    {
+      "src": "/domegallery/IMG-20251020-WA0085.jpg",
+      "alt": "IMG-20251020-WA0085"
+    },
+    {
+      "src": "/domegallery/IMG-20251027-WA0097.jpg",
+      "alt": "IMG-20251027-WA0097"
+    },
+    {
+      "src": "/domegallery/IMG-20251029-WA0060.jpg",
+      "alt": "IMG-20251029-WA0060"
+    },
+    {
+      "src": "/domegallery/IMG-20251101-WA0000.jpg",
+      "alt": "IMG-20251101-WA0000"
+    },
+    {
+      "src": "/domegallery/IMG-20251108-WA0025.jpg",
+      "alt": "IMG-20251108-WA0025"
+    },
+    {
+      "src": "/domegallery/IMG-20251108-WA0039.jpg",
+      "alt": "IMG-20251108-WA0039"
+    },
+    {
+      "src": "/domegallery/IMG-20251201-WA0023.jpg",
+      "alt": "IMG-20251201-WA0023"
+    },
+    {
+      "src": "/domegallery/IMG-20251201-WA0027.jpg",
+      "alt": "IMG-20251201-WA0027"
+    },
+    {
+      "src": "/domegallery/IMG-20251220-WA0020.jpg",
+      "alt": "IMG-20251220-WA0020"
+    },
+    {
+      "src": "/domegallery/IMG-20251220-WA0035.jpg",
+      "alt": "IMG-20251220-WA0035"
+    },
+    {
+      "src": "/domegallery/IMG-20260110-WA0000.jpg",
+      "alt": "IMG-20260110-WA0000"
+    },
+    {
+      "src": "/domegallery/IMG-20260113-WA0024.jpg",
+      "alt": "IMG-20260113-WA0024"
+    },
+    {
+      "src": "/domegallery/IMG-20260123-WA0026.jpg",
+      "alt": "IMG-20260123-WA0026"
+    },
+    {
+      "src": "/domegallery/IMG-20260130-WA0012.jpg",
+      "alt": "IMG-20260130-WA0012"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_210647.jpg",
+      "alt": "PSX_20251229_210647"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_210858.jpg",
+      "alt": "PSX_20251229_210858"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_211417.jpg",
+      "alt": "PSX_20251229_211417"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_211550.jpg",
+      "alt": "PSX_20251229_211550"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_211955.jpg",
+      "alt": "PSX_20251229_211955"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_212731.jpg",
+      "alt": "PSX_20251229_212731"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_213345.jpg",
+      "alt": "PSX_20251229_213345"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_213751.jpg",
+      "alt": "PSX_20251229_213751"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_214101.jpg",
+      "alt": "PSX_20251229_214101"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_214537.jpg",
+      "alt": "PSX_20251229_214537"
+    },
+    {
+      "src": "/domegallery/psx_20251229_214723.jpg",
+      "alt": "psx_20251229_214723"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_215027.jpg",
+      "alt": "PSX_20251229_215027"
+    },
+    {
+      "src": "/domegallery/psx_20251229_230553.jpg",
+      "alt": "psx_20251229_230553"
+    },
+    {
+      "src": "/domegallery/psx_20251229_230744.jpg",
+      "alt": "psx_20251229_230744"
+    },
+    {
+      "src": "/domegallery/psx_20251229_230948.jpg",
+      "alt": "psx_20251229_230948"
+    },
+    {
+      "src": "/domegallery/psx_20251229_231209.jpg",
+      "alt": "psx_20251229_231209"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_232446.jpg",
+      "alt": "PSX_20251229_232446"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_232657.jpg",
+      "alt": "PSX_20251229_232657"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_232837.jpg",
+      "alt": "PSX_20251229_232837"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_233116.jpg",
+      "alt": "PSX_20251229_233116"
+    },
+    {
+      "src": "/domegallery/psx_20251229_233515.jpg",
+      "alt": "psx_20251229_233515"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_234212.jpg",
+      "alt": "PSX_20251229_234212"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_234338.jpg",
+      "alt": "PSX_20251229_234338"
+    },
+    {
+      "src": "/domegallery/PSX_20251229_234545.jpg",
+      "alt": "PSX_20251229_234545"
+    },
+    {
+      "src": "/domegallery/psx_20251230_150910.jpg",
+      "alt": "psx_20251230_150910"
+    },
+    {
+      "src": "/domegallery/PSX_20251230_174135.jpg",
+      "alt": "PSX_20251230_174135"
+    },
+    {
+      "src": "/domegallery/PSX_20251230_174307.jpg",
+      "alt": "PSX_20251230_174307"
+    },
+    {
+      "src": "/domegallery/PSX_20251231_014507.jpg",
+      "alt": "PSX_20251231_014507"
+    },
+    {
+      "src": "/domegallery/PSX_20251231_014729.jpg",
+      "alt": "PSX_20251231_014729"
+    },
+    {
+      "src": "/domegallery/PSX_20251231_014959.jpg",
+      "alt": "PSX_20251231_014959"
+    },
+    {
+      "src": "/domegallery/PSX_20251231_015543.jpg",
+      "alt": "PSX_20251231_015543"
+    },
+    {
+      "src": "/domegallery/PSX_20251231_015755.jpg",
+      "alt": "PSX_20251231_015755"
+    },
+    {
+      "src": "/domegallery/Screenshot_20251119_004102_Instagram.jpg",
+      "alt": "Screenshot_20251119_004102_Instagram"
+    },
+    {
+      "src": "/domegallery/Screenshot_20251119_004211_Instagram.jpg",
+      "alt": "Screenshot_20251119_004211_Instagram"
+    }
   ]
 
   return (
@@ -780,7 +780,7 @@ export default function BirthdayPage() {
               />
             </motion.div>
            <h2 className={`${healing.className} text-4xl md:text-5xl font-bold mb-4 pb-2 pt-4 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400`}>
-              The Slaying
+              The Memories of Slay
             </h2>
             <p className={`${healing.className} text-xl text-purple-200 max-w-2xl mx-auto`}>
               A place for all the times you slayed
