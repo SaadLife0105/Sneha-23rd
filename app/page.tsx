@@ -6,7 +6,27 @@ import { Gift, Heart, PartyPopper } from "lucide-react"
 import { TypeAnimation } from "react-type-animation"
 import Particles from "../components/Particles"
 import DomeGallery from "../components/DomeGallery"
+import localFont from 'next/font/local'
 
+const rapundel = localFont({
+  src: './fonts/Rapunled.otf',
+})
+
+const stylish1 = localFont({
+  src: './fonts/Stylish Handwriting Script .otf',
+})
+
+const havana = localFont({
+  src: './fonts/Havana.ttf',
+})
+
+const healing = localFont({
+  src: './fonts/HealingBestieDemoRegular.ttf',
+})
+
+const basic = localFont({
+  src: './fonts/Playwrite_NZ_Basic/PlaywriteNZBasic-VariableFont_wght.ttf',
+})
 
 export default function BirthdayPage() {
   const [windowSize, setWindowSize] = useState({
@@ -73,13 +93,13 @@ export default function BirthdayPage() {
     },
     {
       name: "Mayuree",
-      text: "x",
-      relation: "Best Friend"
+      text: "You're the best person I've ever met in my life . My uni life would have never been better if you were not here the chaos fun and memories that we made are  just out of this world. Sa ad is lucky he got to propose you before meeeee trust me I was gonna do it. I miss the golden chance... And the woman that you are.....my goodness can turn every women bi ahaha i just loveeeee youuuuu muahhh. stay blessed x",
+      relation: "mo fam"
     },
     {
-      name: "Dookia",
-      text: "x",
-      relation: "Best Friend"
+      name: "Dooks no1",
+      text: "Cakes and Candles G🎂  Thank you for being there for me when I needed you most, and providing the world's greatest assist (mayuree)  And since it's your birthday, I'll admit HunterxHunter was not as bad as i make it out to be, Killua is pretty cool. Love you G❤️",
+      relation: "the dude with similar mental issues"
     },
     {
       name: "Rafa",
@@ -87,14 +107,9 @@ export default function BirthdayPage() {
       relation: "Best Friend"
     },
     {
-      name: "Harsh",
-      text: "x",
-      relation: "Best Friend"
-    },
-    {
-      name: "Priyanka",
-      text: "x",
-      relation: "Best Friend"
+      name: "Payanka & Hoosh",
+      text: "Happy Birthday girlypop  Hope we can go on double dates soon and play league together hehehe; Payanka side note: thank you for making that PD! happy, you guys are so cute together, hoosh and i gib you endless blessings and happiness ^^ and also I LOVE YOUR STYLE SO MUCH, HOTTIE EMO BADDIE ENERGYYY! Happiest Birthday Again",
+      relation: "GIRLIES BEFORE SA'AD Xd"
     },
     {
       name: "Nived",
@@ -108,8 +123,8 @@ export default function BirthdayPage() {
     },
     {
       name: "Zeaven",
-      text: "x",
-      relation: "Best Friend"
+      text: "Happi borthday niggo",
+      relation: "dumbos"
     },
     {
       name: "Shivanen",
@@ -122,8 +137,8 @@ export default function BirthdayPage() {
       relation: "Best Friend"
     },
     {
-      name: "Anakin",
-      text: "x",
+      name: "Bananakin",
+      text: "All the best with everrything ahead. I'm sure you're gonna make it all ❤️",
       relation: "Best Friend"
     },
     {
@@ -132,14 +147,14 @@ export default function BirthdayPage() {
       relation: "Best Friend"
     },
     {
-      name: "Dawson",
-      text: "x",
-      relation: "Best Friend"
+      name: "Dawson ( L'homme le plus grand de l'île Maurice)",
+      text: "You're one of my coolest and realest friends, amazing vibes and hope you have a wonderful life ahead",
+      relation: "Sneha's bestie 🤪"
     },
     {
-      name: "Ryan Bhugmonia",
-      text: "x",
-      relation: "Best Friend"
+      name: "Ryan B (50%)",
+      text: "2. Happy Birthday to the sweetest and shortest Santa's Elf I know. Hope you continue to glow like Edward's skin in the sun, that you have a long and healthy Brat Summer life. Hope we get to spend some time together again before you get snatched to the North Poll again :( hope we both get some more inches [won't mention where] but yeaaah anyway, love youuu. P.s, I'm sorry again for what happened on the 16th December 2020 #it_haunts_me #bouche_b #I_was_on_vocal_rest",
+      relation: "Yours threatfully, the better Ryan <3"
     },
     {
       name: "Jean (drugs)",
@@ -152,9 +167,9 @@ export default function BirthdayPage() {
       relation: "campement cote kelly"
     },
     {
-      name: "Bhavya",
-      text: "x",
-      relation: "Best Friend"
+      name: "Raccoon",
+      text: "Happpy Birthdayyy to one of the most gorgeous person I know . I'm so so proud of you❤️❤️",
+      relation: "From Bhavya❤️"
     },
     {
       name: "Chum (Chonky papa bear)",
@@ -177,9 +192,9 @@ export default function BirthdayPage() {
       relation: "Best Friend"
     },
     {
-      name: "Zakariyya",
-      text: "x",
-      relation: "Best Friend"
+      name: "Zaki",
+      text: "Kot geter, lascar fan kk",
+      relation: "Soulard"
     },
     {
       name: "Aneekesh",
@@ -482,7 +497,7 @@ export default function BirthdayPage() {
           </motion.div>
 
           <motion.h1
-            className="text-5xl md:text-7xl font-bold mb-6 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-[#BB8BB4] via-[#A33BBA] to-[#BB8BB4]"
+            className={`${rapundel.className} text-7xl md:text-9xl font-bold mb-6 pb-4 pt-4 leading-tight md:leading-[1.30] bg-clip-text text-transparent bg-gradient-to-r from-[#BB8BB4] via-[#A33BBA] to-[#BB8BB4]`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 1 }}
@@ -490,7 +505,7 @@ export default function BirthdayPage() {
             Happy 23rd Birthday!
           </motion.h1>
           
-          <div className="h-14 mb-8">
+          <div className={`${stylish1.className} h-14 mb-8`}>
             <TypeAnimation
               sequence={[
                 "Sneha Beeltah",
@@ -559,7 +574,7 @@ export default function BirthdayPage() {
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
               }}
-              className="text-3xl md:text-4xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400"
+              className={`${healing.className} text-3xl md:text-4xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400`}
             >
               A pecial message from yo boi
             </motion.h2>
@@ -569,7 +584,7 @@ export default function BirthdayPage() {
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
               }}
-              className="space-y-4 text-lg text-purple-100"
+              className={`${basic.className} space-y-4 text-lg text-purple-100`}
             >
               <p>Dear Slayha,</p>
               <p>
@@ -589,9 +604,9 @@ export default function BirthdayPage() {
               </p>
               <p>
                 I love you, with everything I have Sneha Beeltah because you are my everything, my one and only, my soulmate, my wife, 
-                MY GWORL, happy birthdayyyyyy. ❤️
+                MY GWORL, happy birthdayyyyyy.❤️
               </p>
-              <p className="text-right font-script text-xl text-pink-300">With love, your pretty boi, Sa'ad Kherdali</p>
+              <p className={`${havana.className} text-right font-script text-xl text-pink-300`}>With love, your pretty boi, Sa'ad Kherdali</p>
             </motion.div>
 
             <motion.div
@@ -640,7 +655,7 @@ export default function BirthdayPage() {
               initial={{ y: 50, opacity: 0 }}
               animate={wishesInView ? { y: 0, opacity: 1 } : {}}
               transition={{ duration: 0.8 }}
-              className="text-4xl md:text-5xl font-bold mb-4 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400"
+              className={`${healing.className} text-4xl md:text-5xl font-bold mb-4 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400`}
             >
               Wishes from yo fwends
             </motion.h2>
@@ -649,9 +664,12 @@ export default function BirthdayPage() {
               initial={{ y: 50, opacity: 0 }}
               animate={wishesInView ? { y: 0, opacity: 1 } : {}}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-xl text-purple-200 max-w-2xl mx-auto"
-            >
-              Some special messages from all of your special friends (pun intended).
+              className={`${healing.className} text-xl text-purple-200 max-w-2xl mx-auto`}>
+              Some special messages from all of your special friends
+              <span style={{ fontFamily: "Arial, sans-serif" }}>(</span>
+              {" "}
+              pun intended
+              <span style={{ fontFamily: "Arial, sans-serif" }}>).</span>
             </motion.p>
           </div>
 
@@ -666,11 +684,10 @@ export default function BirthdayPage() {
                 whileHover={{ y: -10, transition: { duration: 0.2 } }}
               >
                 <div className="flex items-center mb-4">
-                  {/* Removed number */}
-                  <h3 className="text-xl font-bold text-purple-200">{msg.name}</h3>
+                  <h3 className={`${basic.className} text-xl font-bold text-purple-200`}>{msg.name}</h3>
                 </div>
-                <p className="text-purple-100 mb-3">"{msg.text}"</p>
-                <p className="text-right italic text-pink-300 text-sm">- {msg.relation}</p>
+                <p className={`${basic.className} text-purple-100 mb-3`}>"{msg.text}"</p>
+                <p className={`${basic.className} text-right italic text-pink-300 text-sm`}>- {msg.relation}</p>
               </motion.div>
             ))}
           </div>
@@ -689,11 +706,15 @@ export default function BirthdayPage() {
       <section className="min-h-screen py-0 bg-gradient-to-b from-purple-950/20 to-black relative px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center lg:mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400">
+           <h2 className={`${healing.className} text-4xl md:text-5xl font-bold mb-4 pb-2 pt-4 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400`}>
               The Slaying
             </h2>
-            <p className="text-xl text-purple-200 max-w-2xl mx-auto">
-              A place for all the times you slayed (which is basically all the time).
+            <p className={`${healing.className} text-xl text-purple-200 max-w-2xl mx-auto`}>
+              A place for all the times you slayed
+              <span style={{ fontFamily: "Arial, sans-serif" }}>(</span>
+              {" "}
+              which is basically all the time
+              <span style={{ fontFamily: "Arial, sans-serif" }}>).</span>
             </p>
           </div>
           <div className=" shadow-2xl shadow-purple-500/10 backdrop-blur-sm bg-gradient-to-br from-purple-950/30 to-pink-950/30 ">
