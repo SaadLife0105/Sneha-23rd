@@ -102,9 +102,9 @@ export default function BirthdayPage() {
       relation: "the dude with similar mental issues"
     },
     {
-      name: "Rafa",
-      text: "x",
-      relation: "Best Friend"
+      name: "Rapha",
+      text: "Happy Birthday to you my Nakama, keep shining ✖️🤛",
+      relation: "Fellow straw hat crew member"
     },
     {
       name: "Payanka & Hoosh",
@@ -198,6 +198,16 @@ export default function BirthdayPage() {
     },
     {
       name: "Aneekesh",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Aneekesh",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Djamel",
       text: "x",
       relation: "Best Friend"
     },
@@ -620,7 +630,12 @@ export default function BirthdayPage() {
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
-                <Heart className="h-12 w-12 text-pink-500 fill-pink-500" />
+                <img
+                  src="/heart.gif"
+                  alt="Heart"
+                  className="h-24 w-24"
+                  style={{ display: "inline-block" }}
+                />
               </motion.div>
             </motion.div>
           </motion.div>
@@ -648,14 +663,19 @@ export default function BirthdayPage() {
               transition={{ duration: 0.5, type: "spring" }}
               className="inline-block mb-4"
             >
-              <Gift className="h-16 w-16 mx-auto text-pink-400" />
+              <img
+                src="/gift.gif"
+                alt="Gift"
+                className="h-24 w-24 mx-auto"
+                style={{ display: "inline-block" }}
+              />
             </motion.div>
 
             <motion.h2
               initial={{ y: 50, opacity: 0 }}
               animate={wishesInView ? { y: 0, opacity: 1 } : {}}
               transition={{ duration: 0.8 }}
-              className={`${healing.className} text-4xl md:text-5xl font-bold mb-4 pb-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400`}
+              className={`${healing.className} text-4xl md:text-5xl font-bold mb-4 pb-2 pt-4 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400`}
             >
               Wishes from yo fwends
             </motion.h2>
@@ -706,6 +726,19 @@ export default function BirthdayPage() {
       <section className="min-h-screen py-0 bg-gradient-to-b from-purple-950/20 to-black relative px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center lg:mb-16">
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 0.5, type: "spring" }}
+              className="inline-block mb-4"
+            >
+              <img
+                src="/photo.gif"
+                alt="Photo"
+                className="h-24 w-24 mx-auto"
+                style={{ display: "inline-block" }}
+              />
+            </motion.div>
            <h2 className={`${healing.className} text-4xl md:text-5xl font-bold mb-4 pb-2 pt-4 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-400`}>
               The Slaying
             </h2>
