@@ -6,6 +6,7 @@ import { Gift, Heart, PartyPopper } from "lucide-react"
 import { TypeAnimation } from "react-type-animation"
 import Particles from "../components/Particles"
 import DomeGallery from "../components/DomeGallery"
+import LightRays from "../components/LightRays"
 import localFont from 'next/font/local'
 
 const rapundel = localFont({
@@ -586,7 +587,7 @@ export default function BirthdayPage() {
       <section ref={messageRef} className="min-h-screen py-20 bg-black relative px-4 flex items-center">
         <div className="max-w-4xl mx-auto z-10">
           <motion.div
-            className="bg-gradient-to-br from-purple-950/50 to-pink-950/50 p-8 md:p-12 rounded-2xl shadow-2xl shadow-purple-500/10 border border-purple-500/10 backdrop-blur-sm"
+            className="bg-gradient-to-br from-purple-950/50 to-pink-950/50 p-8 md:p-12 rounded-2xl shadow-2xl shadow-purple-500/10 border border-purple-500/10 backdrop-blur-sm relative overflow-hidden"
             initial="hidden"
             animate={messageControls}
             variants={{
@@ -602,12 +603,31 @@ export default function BirthdayPage() {
               },
             }}
           >
+            {/* LightRays background */}
+            <div style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', zIndex: 0 }}>
+              <LightRays
+                raysOrigin="top-center"
+                raysColor="#ffffff"
+                raysSpeed={1}
+                lightSpread={0.5}
+                rayLength={3}
+                followMouse={true}
+                mouseInfluence={0.1}
+                noiseAmount={0}
+                distortion={0}
+                className="custom-rays"
+                pulsating={false}
+                fadeDistance={1}
+                saturation={1}
+              />
+            </div>
+            {/* End LightRays background */}
             <motion.div
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
               }}
-              className="flex justify-center mb-8"
+              className="flex justify-center mb-8 relative z-10"
             >
               <div className="relative bg-transparent">
                 <img src="/cake.gif" alt="Cake" className="h-16 w-16 object-contain bg-transparent" style={{ background: 'transparent' }} />
