@@ -773,7 +773,7 @@ export default function BirthdayPage() {
               <p>
                 If everyone in this world supports you then I am one of them. If only one person supports you, then I am that person.
                 If no one supports you, then I am no longer here, but even then I will come back and haunt you so that we can stay
-                together forever (You are not allowed to be with someone else if i die btw).
+                together forever (you are not allowed to be with someone else if i die btw).
               </p>
               <p>
                 I love you, with everything I have Sneha Beeltah because you are my everything, my one and only, my soulmate, my wife, 
