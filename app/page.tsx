@@ -139,7 +139,7 @@ export default function BirthdayPage() {
     {
       name: "Bananakin",
       text: "All the best with everrything ahead. I'm sure you're gonna make it all ❤️",
-      relation: "Best Friend"
+      relation: "Van"
     },
     {
       name: "Sania",
@@ -153,7 +153,7 @@ export default function BirthdayPage() {
     },
     {
       name: "Ryan B (50%)",
-      text: "2. Happy Birthday to the sweetest and shortest Santa's Elf I know. Hope you continue to glow like Edward's skin in the sun, that you have a long and healthy Brat Summer life. Hope we get to spend some time together again before you get snatched to the North Poll again :( hope we both get some more inches [won't mention where] but yeaaah anyway, love youuu. P.s, I'm sorry again for what happened on the 16th December 2020 #it_haunts_me #bouche_b #I_was_on_vocal_rest",
+      text: "Happy Birthday to the sweetest and shortest Santa's Elf I know. Hope you continue to glow like Edward's skin in the sun, that you have a long and healthy Brat Summer life. Hope we get to spend some time together again before you get snatched to the North Poll again :( hope we both get some more inches [won't mention where] but yeaaah anyway, love youuu. P.s, I'm sorry again for what happened on the 16th December 2020 #it_haunts_me #bouche_b #I_was_on_vocal_rest",
       relation: "Yours threatfully, the better Ryan <3"
     },
     {
