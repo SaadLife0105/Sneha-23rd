@@ -78,8 +78,8 @@ export default function BirthdayPage() {
   const friendMessages = [
     {
       name: "Tonya",
-      text: "x",
-      relation: "Best Friend",
+      text: "Kok.                                                                                C'est faux je blague. Happy birthday sne, I can't believe we've been friends for over 4 years now, because it feels I've known you all my life. Growing up by your side and navigating life together is one of my greatest privileges, and I truly, truly hope we stay friends forever. I'm the luckiest girl on earth to have someone like you that I miss so much when I'm away. I hope 23 is kind to you, and that you get every happiness you deserve this year <3",
+      relation: "Your wife 😎",
     },
     {
       name: "mae",
@@ -113,13 +113,13 @@ export default function BirthdayPage() {
     },
     {
       name: "Nived",
-      text: "x",
-      relation: "Best Friend"
+      text: "Happy Birthdayyyyyy! Hope you have an amazing day and remember, you are same age as Sa'ad now.",
+      relation: "Sa'ad so papa adoptif"
     },
     {
-      name: "Sivam",
-      text: "x",
-      relation: "Best Friend"
+      name: "My long lost sister retarder",
+      text: "Goofy drunkard, happy birthday smol one, have a good one, Mo pou bonk kout toi marteau. I wish that we continue to laugh like dumbfucks in the years to come.",
+      relation: "El Waccoon"
     },
     {
       name: "Zeaven",
@@ -177,9 +177,9 @@ export default function BirthdayPage() {
       relation: "#OnePieceGang"
     },
     {
-      name: "Kuvaj",
-      text: "x",
-      relation: "Best Friend"
+      name: "Sneha Bilta UoM Computer Club",
+      text: "Congratulations on completing your 23rd orbit around the Earth 🌍",
+      relation: "Kuvaj"
     },
     {
       name: "Zarah",
@@ -188,8 +188,8 @@ export default function BirthdayPage() {
     },
     {
       name: "Suhail",
-      text: "x",
-      relation: "Best Friend"
+      text: "Happy birthday ek hopefully ki cake la 1 flavor ki mo kontan",
+      relation: "Sukuna"
     },
     {
       name: "Zaki",
@@ -197,17 +197,52 @@ export default function BirthdayPage() {
       relation: "Soulard"
     },
     {
-      name: "Aneekesh",
-      text: "x",
-      relation: "Best Friend"
-    },
-    {
-      name: "Aneekesh",
-      text: "x",
-      relation: "Best Friend"
+      name: "Nick",
+      text: "Oreo kitkat svp? 1 donut oreo ek 1 donut kitkat? Non non. 1 oreo kitkat.",
+      relation: "Kuzinn"
     },
     {
       name: "Djamel",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Amy",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Danish",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Eshaa",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Jameel",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Jug",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Dooks",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Noshita",
+      text: "x",
+      relation: "Best Friend"
+    },
+    {
+      name: "Zayn",
       text: "x",
       relation: "Best Friend"
     },
@@ -706,7 +741,12 @@ export default function BirthdayPage() {
                 <div className="flex items-center mb-4">
                   <h3 className={`${basic.className} text-xl font-bold text-purple-200`}>{msg.name}</h3>
                 </div>
-                <p className={`${basic.className} text-purple-100 mb-3`}>"{msg.text}"</p>
+                <p
+                  className={`${basic.className} text-purple-100 mb-3`}
+                  style={{ whiteSpace: "pre-wrap" }}
+                >
+                  "{msg.text}"
+                </p>
                 <p className={`${basic.className} text-right italic text-pink-300 text-sm`}>- {msg.relation}</p>
               </motion.div>
             ))}
