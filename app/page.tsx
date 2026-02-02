@@ -94,12 +94,12 @@ export default function BirthdayPage() {
     },
     {
       name: "Mayuree",
-      text: "You're the best person I've ever met in my life . My uni life would have never been better if you were not here the chaos fun and memories that we made are  just out of this world. Sa ad is lucky he got to propose you before meeeee trust me I was gonna do it. I miss the golden chance... And the woman that you are.....my goodness can turn every women bi ahaha i just loveeeee youuuuu muahhh. stay blessed x",
+      text: "You're the best person I've ever met in my life. My uni life would have never been better if you were not here the chaos fun and memories that we made are just out of this world. Sa'ad is lucky he got to propose you before meeeee trust me I was gonna do it. I miss the golden chance... And the woman that you are.....my goodness can turn every women bi ahaha i just loveeeee youuuuu muahhh. stay blessed x",
       relation: "mo fam"
     },
     {
       name: "Dooks no1",
-      text: "Cakes and Candles G🎂  Thank you for being there for me when I needed you most, and providing the world's greatest assist (mayuree)  And since it's your birthday, I'll admit HunterxHunter was not as bad as i make it out to be, Killua is pretty cool. Love you G❤️",
+      text: "Cakes and Candles G🎂. Thank you for being there for me when I needed you most, and providing the world's greatest assist (mayuree). And since it's your birthday, I'll admit HunterxHunter was not as bad as i make it out to be, Killua is pretty cool. Love you G❤️",
       relation: "the dude with similar mental issues"
     },
     {
@@ -114,12 +114,12 @@ export default function BirthdayPage() {
     },
     {
       name: "Nived",
-      text: "Happy Birthdayyyyyy! Hope you have an amazing day and remember, you are same age as Sa'ad now.",
+      text: "Happy Birthdayyyyyy! Hope you have an amazing day and remember, you are the same age as Sa'ad now.",
       relation: "Sa'ad so papa adoptif"
     },
     {
       name: "My long lost sister retarder",
-      text: "Goofy drunkard, happy birthday smol one, have a good one, Mo pou bonk kout toi marteau. I wish that we continue to laugh like dumbfucks in the years to come.",
+      text: "Goofy drunkard, happy birthday smol one, have a good one, Mo pou bonk toi kout marteau. I wish that we continue to laugh like dumbfucks in the years to come.",
       relation: "El Waccoon"
     },
     {
@@ -144,7 +144,7 @@ export default function BirthdayPage() {
     },
     {
       name: "Sania",
-      text: "⁠Happy Birthday to the coolest person ive ever met , imiss you & i hope we can do more sleepovers in the future. You’re the person who’s style i love the most amongst everyone in our little group. To another year of growing in strength, wisdom and being one of the smartest person i know <3",
+      text: "⁠Happy Birthday to the coolest person ive ever met , i miss you & i hope we can do more sleepovers in the future. You’re the person who’s style i love the most amongst everyone in our little group. To another year of growing in strength, wisdom and being one of the smartest person i know <3",
       relation: "Sania"
     },
     {
@@ -234,7 +234,7 @@ export default function BirthdayPage() {
     },
     {
       name: "From Dooks CC",
-      text: "Happiest Birthday girlypop thank for being the awesome you. Am proud of you as always.",
+      text: "Happiest Birthday girlypop thanks for being the awesome you. Am proud of you as always.",
       relation: "QUIN OF CC"
     },
     {
