@@ -200,7 +200,7 @@ export default function BirthdayPage() {
     {
       name: "Amy(mimi ah^^)",
       text: "Bunny ahhhhh😚!!! I wish you a very happy birthday!! Fini ggn 23 ans, p vinn vieux mo truver. Keep slaying and shining as always.",
-      relation: "Best Friend"
+      relation: "Amy"
     },
     {
       name: "Danish",
