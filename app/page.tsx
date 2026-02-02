@@ -766,18 +766,16 @@ export default function BirthdayPage() {
                 You have blessed me with your presence ever since you came into my life and I will try my best to make up for everything 
                 you have ever went through to make you forget all about it (and so that I can be worthy of you too eheh). 
                 I will try my best to make you happy every second of every day so that you never have to feel sad or lonely ever again.
-              </p>
-              <p>
-
+                I apple you bb. 🍎
               </p>
               <p>
                 If everyone in this world supports you then I am one of them. If only one person supports you, then I am that person.
                 If no one supports you, then I am no longer here, but even then I will come back and haunt you so that we can stay
-                together forever (you are not allowed to be with someone else if i die btw).
+                together forever (you are not allowed to be with someone else if i die btw). 🙂
               </p>
               <p>
-                I love you, with everything I have Sneha Beeltah because you are my everything, my one and only, my soulmate, my wife, 
-                MY GWORL, happy birthdayyyyyy.❤️
+                I love you, with everything I have Sneha Beeltah because you are my everything, my one and only, my soulmate, president of my heart,
+                my wife, MY GWORL, happy birthdayyyyyy. Also, happy 4 months anniversaryyyy babyyyyyyy. ❤️❤️❤️❤️
               </p>
               <p className={`${havana.className} text-right font-script text-xl text-pink-300`}>With love, your pretty boi, Sa'ad Kherdali</p>
             </motion.div>
