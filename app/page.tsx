@@ -405,10 +405,6 @@ export default function BirthdayPage() {
       "alt": "IMG-20260201-WA0121"
     },
     {
-      "src": "/domegallery/IMG-20260201-WA0122 (1)fhd.jpg",
-      "alt": "IMG-20260201-WA0122 (1)fhd"
-    },
-    {
       "src": "/domegallery/IMG-20260201-WA0122(1).jpg",
       "alt": "IMG-20260201-WA0122(1)"
     },
