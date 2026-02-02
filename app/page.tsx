@@ -917,6 +917,7 @@ export default function BirthdayPage() {
         </div>
       </section>
 
+      
       {/* Footer */}
       <footer className="py-8 mt-16 bg-black text-center text-purple-300 text-sm mx-2">
         <p>
