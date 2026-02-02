@@ -128,11 +128,6 @@ export default function BirthdayPage() {
       relation: "dumbos"
     },
     {
-      name: "Shivanen",
-      text: "x",
-      relation: "Best Friend"
-    },
-    {
       name: "Vashish ",
       text: "Wish you a very happy birthday to my best CR and best President ever💃🏻♥️🥳. seki mo ena pou dir toi mo kontn ki mone kone toi ek tone help moi dan bku kitsoz ek I know whenever I needed your help you were here✌🏻 jamais mo pou blier man ki to ti mo premier kamarad ki mone fer dan uni 🥰. Ek osi tone fer moi kontn 1 club ki koumadir now sa club la form parti dan lavie astr thanks for that boss Contine slayyy like your name say slayhaaa😝👻",
       relation: "mawaaa"
@@ -181,11 +176,6 @@ export default function BirthdayPage() {
       name: "Sneha Bilta UoM Computer Club",
       text: "Congratulations on completing your 23rd orbit around the Earth 🌍",
       relation: "Kuvaj"
-    },
-    {
-      name: "Zarah",
-      text: "x",
-      relation: "Best Friend"
     },
     {
       name: "Suhail",
@@ -243,9 +233,9 @@ export default function BirthdayPage() {
       relation: "Your gymnase bestie"
     },
     {
-      name: "zayn",
-      text: "Wishing mme presidente the happiest bd, slayy❤️",
-      relation: "Friend"
+      name: "Barry",
+      text: "Merci grace a toi mone ggn manzer plein tank pu app cup, ggn tag leszt dimun, ggn so much goodiess.❤️ Goodtimes. Happy birthday my dearest friend✨",
+      relation: "Zayn"
     },
   ]
 
